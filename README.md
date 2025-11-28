@@ -131,6 +131,16 @@ pnpm dev
 
 ---
 
+## 📖 API Documentation (Swagger)
+
+This project includes interactive API documentation using **Swagger UI**.
+
+- Swagger UI is available at: [http://localhost:3000/api-docs](http://localhost:3000/api-docs)
+- The docs are generated from JSDoc comments in the route files (`src/routes/*.ts`).
+- Authentication-protected endpoints require a JWT token. Use the **Authorize** button in Swagger UI and paste your token as:
+
+---
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
